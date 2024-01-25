@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surebet Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- MANIFEST -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/icon-big.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Surebet Calculator</h1>
+
+      <label for="odd1">Odd voor de ene markt:</label>
+      <input type="text" id="odd1" placeholder="Bijv. 2.00" />
+
+      <label for="odd2">Odd voor de tegenovergestelde markt:</label>
+      <input type="text" id="odd2" placeholder="Bijv. 2.50" />
+
+      <label for="totalBet">Totale inzet:</label>
+      <input type="text" id="totalBet" placeholder="Bijv. 100" />
+
+      <button onclick="calculateSurebet()">Bereken Surebet</button>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

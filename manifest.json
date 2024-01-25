@@ -1,0 +1,20 @@
+{
+  "name": "Sure Bet Calculator",
+  "short_name": "SB Calc",
+  "start_url": "index",
+  "background_color": "#23d7f0",
+  "theme_color": "#23d7f0",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/icon-small.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-big.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
